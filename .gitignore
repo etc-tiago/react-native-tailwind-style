@@ -1,0 +1,27 @@
+# General
+*.log*
+*.tsbuildinfo
+.DS_Store
+.env*
+.eslintcache
+node_modules/
+
+# Package builds
+*.tgz
+dist-*/
+
+# Create React App
+!packages/example-cra/.env
+
+# Gatsby
+.cache/
+public/
+
+# Next.js
+.next/
+packages/**/@types/**
+utils/**/@types/**
+build/
+out/
+dist/
+coverage/
